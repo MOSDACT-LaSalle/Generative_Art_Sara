@@ -16,7 +16,7 @@ void setup() {
   terrain = new float[cols][rows]; // Create an empty grid to store the heights.
   offset = new float[cols][rows]; // Create an empty grid to store small position adjustments.
   noStroke(); // Removes the outlines from all shapes.
-  smooth(50); // Make everything look smoother.
+  smooth(100); // Make everything look smoother.
 }
 
 // Where the Magic Happens
@@ -52,7 +52,7 @@ void draw() {
   // Lighting effects
   directionalLight(250, 250, 250, 1, 0, -1); // A white light shining from the front.
   ambientLight(80, 80, 80); // A soft ambient light.
-  specular(50); // Make the material shiny.
+  specular(100); // Make the material shiny.
   shininess(100); // Shine level.
 
   // 3D Ferrofluid Spikes
