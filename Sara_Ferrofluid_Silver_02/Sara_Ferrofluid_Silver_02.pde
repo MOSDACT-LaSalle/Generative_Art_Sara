@@ -11,6 +11,7 @@ float roundingFactor = 0.1;  // This is a small number to help round the corners
 
 final int COUNT = 150;
 int[] style; //color style
+
 // Lighting and Rotation
 void setup() {
   size(800, 800, P3D); // Set up window size and enable 3D mode.
